@@ -82,3 +82,29 @@ button:hover {
 .menu-item:hover {
     transform: translateY(-5px);
 }
+
+nav {
+    background-color: white;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
