@@ -9,6 +9,17 @@ section {
     padding: 120px 20px;
 }
 
+.hero-title {
+    font-size: 60px;
+}
+
+.hero img {
+    width: 80%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 10px;
+}
+
 .hero {
     background-color: #fff3e0;
 }
@@ -46,4 +57,14 @@ button {
 
 button:hover {
     background-color: #a00000;
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 40px;
+    }
+
+    .hero img {
+        width: 95%;
+    }
 }
